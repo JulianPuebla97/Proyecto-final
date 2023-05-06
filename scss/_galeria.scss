@@ -1,0 +1,152 @@
+.galeriacontenedor{
+    display: grid;
+    grid-template: 
+    "header header header" 100px
+    "container container container"3300px
+    "footer footer footer" 50px /
+    300px    300px   auto;
+            
+            .container{
+                grid-area: container;
+                    display: grid;
+                    grid-template-columns: 0fr 0fr 0fr;
+                    grid-template-rows: 0fr 0fr 0fr 0fr 0fr 0fr 0fr 0fr;
+                    gap: 20px 20px;
+                    grid-auto-flow: row;
+                    grid-template-areas:
+                        "item1 item2 item3"
+                        "item4 item5 item6"
+                        "item7 item8 item9"
+                        "item10 item11 item12"
+                        "item13 item14 item15"
+                        "item16 item17 item18"
+                        "item19 item20 item21"
+                        "item22 item23 item24";
+                        margin-top: 30px;
+                        margin-left: 80px;
+                        .item1 {grid-area: item1;.galeriaimg{
+                            width: 350px;
+                            height: 380px;
+                            box-shadow:$colorfondoimg;
+                        }}
+                        .item2 { grid-area: item2;.galeriaimg{
+                            width: 350px;
+                            height: 380px;
+                            box-shadow:$colorfondoimg;
+                        } }
+                        .item3 { grid-area: item3; .galeriaimg{
+                            width: 350px;
+                            height: 380px;
+                            box-shadow: $colorfondoimg;
+                        }}
+                        .item4 { grid-area: item4;.galeriaimg{
+                            width: 350px;
+                            height: 380px;
+                            box-shadow:$colorfondoimg;
+                        } }
+                        .item5 { grid-area: item5;.galeriaimg{
+                            width: 350px;
+                            height: 380px;
+                            box-shadow:$colorfondoimg;
+                        } }
+                        .item6 { grid-area: item6; .galeriaimg{
+                            width: 350px;
+                            height: 380px;
+                            box-shadow:$colorfondoimg;
+                        }}
+                        .item7 { grid-area: item7; .galeriaimg{
+                            width: 350px;
+                            height: 380px;
+                            box-shadow:$colorfondoimg;
+                        }}
+                        .item8 { grid-area: item8; .galeriaimg{
+                            width: 350px;
+                            height: 380px;
+                            box-shadow:$colorfondoimg;
+                        }}
+                        .item9 { grid-area: item9;.galeriaimg{
+                            width: 350px;
+                            height: 380px;
+                            box-shadow:$colorfondoimg;
+                        } }
+                        .item10 { grid-area: item10; .galeriaimg{
+                            width: 350px;
+                            height: 380px;
+                            box-shadow:$colorfondoimg;
+                        }}
+                        .item11 { grid-area: item11; .galeriaimg{
+                            width: 350px;
+                            height: 380px;
+                            box-shadow:$colorfondoimg;
+                        }}
+                        .item12 { grid-area: item12; .galeriaimg{
+                            width: 350px;
+                            height: 380px;
+                            box-shadow:$colorfondoimg;
+                        }}
+                        .item13 { grid-area: item13; .galeriaimg{
+                            width: 350px;
+                            height: 380px;
+                            box-shadow:$colorfondoimg;
+                        }}
+                        .item14 { grid-area: item14; .galeriaimg{
+                            width: 350px;
+                            height: 380px;
+                            box-shadow:$colorfondoimg;
+                        }}
+                        .item15 { grid-area: item15; .galeriaimg{
+                            width: 350px;
+                            height: 380px;
+                            box-shadow:$colorfondoimg;
+                        }}
+                        .item16 { grid-area: item16;.galeriaimg{
+                            width: 350px;
+                            height: 380px;
+                            box-shadow:$colorfondoimg;
+                        } }
+                        .item17 { grid-area: item17; .galeriaimg{
+                            width: 350px;
+                            height: 380px;
+                            box-shadow:$colorfondoimg;
+                        }}               
+                        .item18 { grid-area: item18; .galeriaimg{
+                            width: 350px;
+                            height: 380px;
+                            box-shadow:$colorfondoimg;
+                        }}
+                        .item19 { grid-area: item19; .galeriaimg{
+                            width: 350px;
+                            height: 380px;
+                            box-shadow:$colorfondoimg;
+                        }}
+                        .item20 { grid-area: item20; .galeriaimg{
+                            width: 350px;
+                            height: 380px;
+                            box-shadow:$colorfondoimg;
+                        }}
+                        .item21 { grid-area: item21; .galeriaimg{
+                            width: 350px;
+                            height: 380px;
+                            box-shadow:$colorfondoimg;
+                        }}
+                        .item22 { grid-area: item22; .galeriaimg{
+                            width: 350px;
+                            height: 380px;
+                            box-shadow:$colorfondoimg;
+                        }}
+                        .item23 { grid-area: item23; .galeriaimg{
+                            width: 350px;
+                            height: 380px;
+                            box-shadow:$colorfondoimg;
+                        }}
+                        .item24 { grid-area: item24;
+                            .galeriaimg{
+                            width: 350px;
+                            height: 380px;
+                            box-shadow:$colorfondoimg;
+                        }
+                    }
+                        
+                        
+                        }
+    }

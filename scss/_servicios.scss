@@ -1,0 +1,19 @@
+.contenedorser{
+    display: flex;
+    margin-bottom: 100px;
+    .servicios1{
+        margin-top: 80px;
+        margin-left: 50px;
+    }
+    .servicios2{
+        color:$colorletras ;
+        font-size: 20px;
+        text-align: center;
+        width: 500px;
+        height: 200px;
+        margin-top: 120px;
+        margin-left: 80px;
+        border:solid #374a60;
+        box-shadow:$colorborde;
+    }
+}

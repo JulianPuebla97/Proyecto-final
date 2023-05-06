@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    font-size: 62,5%;
+}
+
+
+a{
+    color:$colorletras;
+    text-decoration: none;
+}
+
+.fondocompleto{ 
+    background:linear-gradient(45deg,#c05998,#422846,#283646,#161d26);
+    font-family:'Amita', cursiva;
+}
+
+.header{
+    grid-area: header;
+    
+}
+.confooter{
+    grid-area:footer;
+}
+
