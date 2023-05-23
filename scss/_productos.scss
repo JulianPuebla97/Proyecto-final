@@ -12,12 +12,17 @@
     margin-right: 20px;
     .cond12{
         display: flex;
-        margin: 10px;
+        margin: 15px;
         padding: 10px;
         margin-left: 20px;
         overflow: auto;
         border-radius: 10px;
         box-shadow:$colorborde;
+        .titulo12{
+            color: $colorletras;
+            text-align: center;
+            
+        }
         .imgproductos{
             width: 200px;
             height: 200px;
@@ -30,6 +35,7 @@
             margin-left: 25px;
             overflow: hidden;
             text-align: center;
+            margin-top: 10px;
         }
     }
 }
@@ -38,15 +44,26 @@
     justify-items: end;
     margin-left: 100px;
     margin-top: 20px;
-    .iconproductos{
-        width: 48px;
-        height: 48px;
-        margin-left: 60px;
-        background-color:rgb(174, 186, 197);
-        border-radius: 4px;
-        &:hover {
-            width:60px;
-            height: 60px;
+    .marcasproductos{
+        .titulo13{
+            color: $colorletras;
+            text-align: center;
+            margin-right: 110px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            box-shadow: $colorborde;
+        
+        }
+        .iconproductos{
+            width: 48px;
+            height: 48px;
+            margin-left: 60px;
+            background-color:rgb(174, 186, 197);
+            border-radius: 4px;
+            margin-top: 20px;
+            &:hover {
+                width:60px;
+                height: 60px;
+            }
         }
     }
     .pproductos2{
@@ -56,6 +73,7 @@
         text-align: center;
         border-radius: 5px;
         box-shadow: 0px 0px 10px#374a60;
+        margin-top: 50px;
     }
     .imagen4{
         width: 300px;
